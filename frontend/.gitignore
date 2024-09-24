@@ -42,3 +42,5 @@ next-env.d.ts
 # yarn lock
 yarn.lock
 
+.vscode
+.DS_Store
