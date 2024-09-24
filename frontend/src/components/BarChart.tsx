@@ -21,9 +21,9 @@ import {
 
 export function BarChartPage({ sensorData }: any) {
   const keiMap: { [key: number]: string } = {
-    0: "Humidity",
-    1: "PM 2.5",
-    2: "Temperature",
+    "0": "PM 2.5",
+    "1": "Temperature",
+    "2": "Humidity",
   }
 
   const chartData = sensorData.map((sensor: any) => ({
